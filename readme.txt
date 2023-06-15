@@ -20,4 +20,5 @@ $ docker stop [container name]
 Start the image with docker compose:
 # this will make a link from the host to the container #
 # move to the file that docker-compose.yaml is stored in #
+# edit [user name] in the docker compose file to your user name 
 $ docker compose up -d

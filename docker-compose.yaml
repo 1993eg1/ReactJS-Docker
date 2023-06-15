@@ -6,4 +6,4 @@ services:
       ports:
         - "3000:3000"
       volumes:
-        - /my-app:/app/my-app
+        - /home/[user name]/ReactJS-Docker/my-app:/app/my-app
