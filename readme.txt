@@ -1,3 +1,10 @@
+Interfacing with the Docker container:
+# you can view the servers web page at [server ip address]:3000 #
+# my favorite way of working with the container after it is running is the use sshfs and mount my-app
+to a folder so that i can use a text editor to edit files #
+# you could also use scp or a text editor on the docker server if you wished #
+# your web app is found at /home/[username]/ReactJS-Docker/my-app
+
 Commands:
 
 Build file
@@ -20,5 +27,5 @@ $ docker stop [container name]
 Start the image with docker compose:
 # this will make a link from the host to the container #
 # move to the file that docker-compose.yaml is stored in #
-# edit [user name] in the docker compose file to your user name 
+# edit [user name] in the docker compose file to your user name
 $ docker compose up -d
